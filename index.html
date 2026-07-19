@@ -5,244 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratik Poudel - Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1 align="center">Pratik Poudel</h1>
-        <p align="center">
-            BIT Student | Cloud Computing &amp; Cybersecurity Enthusiast | Kathmandu, Nepal
-        </p>
+<header>
+    <h1>Pratik Poudel</h1>
 
-        <nav>
-            <table border="1" align="center" cellpadding="10">
-                <tr>
-                    <td><a href="#about">About</a></td>
-                    <td><a href="#skills">Skills</a></td>
-                    <td><a href="#education">Education</a></td>
-                    <td><a href="#projects">Projects</a></td>
-                    <td><a href="#contact">Contact</a></td>
-                </tr>
-            </table>
-        </nav>
+    <p>BIT Student | Cloud Computing & Cybersecurity Enthusiast | Kathmandu, Nepal</p>
 
-        <hr>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main>
+<main>
 
-        <section id="about">
-            <h2 align="center">About Me</h2>
+<section id="about">
+    <h2>About Me</h2>
 
-            <table border="1" align="center" cellpadding="10" width="80%">
-                <tr>
-                    <td width="220" align="center">
-                        <img src="C:\Users\Hp\OneDrive\Pictures\Saved Pictures\p15.jpg" alt="Pratik Poudel" width="200" height="200">
-                    </td>
+    <img src="pratik.jpeg" alt="Portrait of Pratik Poudel">
 
-                    <td>
-                        <p>
-                            I'm <b>Pratik Poudel</b>, a Bachelor of Information Technology (BIT)
-                            student at Model Institute of Technology in Kathmandu, Nepal.
-                            I build practical projects across Linux systems, networking,
-                            and cloud infrastructure, and I hold an AWS Academy Cloud
-                            Security Foundations certification.
-                        </p>
+    <p>
+        Hello! I am <strong>Pratik Poudel</strong>, a Bachelor of Information Technology (BIT)
+        student at Model Institute of Technology, Kathmandu, Nepal.
+    </p>
 
-                        <p>
-                            I enjoy solving real-world problems by configuring firewalls,
-                            analyzing network traffic, writing C programs, and deploying
-                            cloud infrastructure on AWS. My goal is to become a Cloud
-                            Security and Cybersecurity Professional.
-                        </p>
-                    </td>
-                </tr>
-            </table>
+    <p>
+        I am passionate about Cloud Computing, Computer Networking,
+        and Cybersecurity. I enjoy solving practical IT problems and continuously improving
+        my technical skills through projects and self-learning.
+    </p>
+</section>
 
-            <br>
-        </section>
+<section id="skills">
 
-        
-        <section id="skills">
+<h2>Technical Skills</h2>
 
-            <h2 align="center">Technical Skills</h2>
+<dl>
 
-            <table border="1" align="center" cellpadding="10" width="80%">
+<dt>C Programming</dt>
+<dd>Programming fundamentals, multithreading using pthreads and mutex locks.</dd>
 
-                <tr>
-                    <th>Skill</th>
-                    <th>Description</th>
-                </tr>
+<dt>Cloud Computing (AWS)</dt>
+<dd>EC2, IAM, S3, VPC and cloud security fundamentals.</dd>
 
-                <tr>
-                    <td>Linux System Administration</td>
-                    <td>User permissions, shell scripting, firewall configuration and log analysis.</td>
-                </tr>
+<dt>Computer Networking</dt>
+<dd>Subnetting, DHCP, DNS, Wireshark and network troubleshooting.</dd>
 
-                <tr>
-                    <td>C Programming</td>
-                    <td>Multithreading using pthreads and mutex locks.</td>
-                </tr>
+<dt>Cybersecurity</dt>
+<dd>Basic security principles, vulnerability assessment and log analysis.</dd>
 
-                <tr>
-                    <td>Cloud Computing (AWS)</td>
-                    <td>EC2, S3, IAM, VPC and Cloud Security.</td>
-                </tr>
+</dl>
 
-                <tr>
-                    <td>Computer Networking</td>
-                    <td>Subnetting, Wireshark, DHCP, LDAP and Kerberos analysis.</td>
-                </tr>
+</section>
 
-                <tr>
-                    <td>Web Development</td>
-                    <td>HTML5, semantic elements and responsive webpage structure.</td>
-                </tr>
+<section id="projects">
 
-            </table>
+<h2>Projects</h2>
 
-            <br>
+<article>
 
-        </section>
+<h3>Student Portfolio Project</h3>
 
-        <!-- ================= EDUCATION ================= -->
-        <section id="education">
+<p>
+Configured html, css code to make a student portfolio.
+</p>
 
-            <h2 align="center">Education &amp; Certifications</h2>
+<a href="https://github.com/yourusername/linux-user-management" target="_blank">
+View GitHub Repository
+</a>
 
-            <table border="1" align="center" cellpadding="10" width="80%">
 
-                <tr>
-                    <th>Qualification</th>
-                    <th>Institution</th>
-                    <th>Status</th>
-                </tr>
+</section>
 
-                <tr>
-                    <td>Bachelor of Information Technology (BIT)</td>
-                    <td>Model Institute of Technology, Kathmandu</td>
-                    <td>In Progress</td>
-                </tr>
+<section id="contact">
 
-                <tr>
-                    <td>AWS Academy Cloud Security Foundations</td>
-                    <td>AWS Academy</td>
-                    <td>Completed</td>
-                </tr>
+<h2>Contact Me</h2>
 
-            </table>
+<form>
 
-            <br>
+<label for="name">Name</label>
+<input type="text" id="name" required>
 
-        </section>
+<label for="email">Email</label>
+<input type="email" id="email" required>
 
-        <!-- ================= PROJECTS ================= -->
-        <section id="projects">
+<label for="message">Message</label>
+<textarea id="message" rows="5" required></textarea>
 
-            <h2 align="center">Projects</h2>
+<button type="submit">Submit</button>
 
-            <table border="1" align="center" cellpadding="10" width="80%">
+</form>
 
-                <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                </tr>
+</section>
 
-                <tr>
-                    <td>AWS S3 Static Website Hosting</td>
-                    <td>
-                        Developed and deployed a static website using Amazon S3.
-                        Configured bucket policies and public access permissions.
-                    </td>
-                </tr>
+</main>
 
-                <tr>
-                    <td>Dining Philosophers Problem</td>
-                    <td>
-                        Solved the synchronization problem in C using pthreads,
-                        mutex locks and deadlock prevention techniques.
-                    </td>
-                </tr>
+<footer>
 
-                <tr>
-                    <td>Network Forensics with Wireshark</td>
-                    <td>
-                        Investigated packet captures including DHCP,
-                        Kerberos and LDAP traffic using Wireshark filters.
-                    </td>
-                </tr>
+<p>© 2026 Pratik Poudel | Personal Portfolio</p>
 
-            </table>
-
-            <br>
-
-        </section>
-
-        <!-- ================= CONTACT ================= -->
-        <section id="contact">
-
-            <h2 align="center">Contact Me</h2>
-
-            <table border="1" align="center" cellpadding="10">
-
-                <tr>
-                    <td>
-
-                        <form action="#" method="post">
-
-                            <label for="name"><b>Name</b></label><br>
-                            <input type="text" id="name" name="name" required>
-
-                            <br><br>
-
-                            <label for="email"><b>Email</b></label><br>
-                            <input type="email" id="email" name="email" required>
-
-                            <br><br>
-
-                            <label for="message"><b>Message</b></label><br>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="6"
-                                cols="40"
-                                required>
-                            </textarea>
-
-                            <br><br>
-
-                            <input type="submit" value="Send Message">
-
-                        </form>
-
-                    </td>
-                </tr>
-
-            </table>
-
-            <br>
-
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- ================= FOOTER ================= -->
-    <footer>
-
-        <table border="1" align="center" cellpadding="10" width="80%">
-            <tr>
-                <td align="center">
-                    &copy; 2026 Pratik Poudel. All Rights Reserved.
-                </td>
-            </tr>
-        </table>
-
-    </footer>
+</footer>
 
 </body>
-
 </html>
